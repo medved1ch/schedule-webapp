@@ -1,0 +1,98 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".jpg"] {
+    width: 70%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #ffd300;
+    font-size: 15px;
+    background: #fff !important;
+}
+
+    .table th {
+        font-weight: bold;
+        padding: 7px;
+        background: #ffd300;
+        border: none;
+        text-align: left;
+        font-size: 15px;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #ffd300;
+    }
+
+    .table td {
+        padding: 7px;
+        border: none;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        font-size: 15px;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background: #f8f8f8 !important;
+    }
+a.button21 {
+    display: inline-block;
+    width: 16em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: rgb(0,0,0);
+    outline: none;
+    border: 1px solid rgba(0,0,0,.4);
+    border-top-color: rgba(0,0,0,.3);
+    border-radius: 2px;
+    background: linear-gradient(rgb(255,255,255), rgb(240,240,240));
+    box-shadow: 0 0 3px rgba(0,0,0,0) inset, 0 1px 1px 1px rgba(255,255,255,.2), 0 -1px 1px 1px rgba(0,0,0,0);
+    transition: .2s ease-in-out;
+}
+
+    a.button21:hover:not(:active) {
+        box-shadow: 0 0 3px rgba(0,0,0,0) inset, 0 1px 1px 1px rgba(0,255,255,.5), 0 -1px 1px 1px rgba(0,255,255,.5);
+    }
+
+    a.button21:active {
+        background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+        box-shadow: 0 0 3px rgba(0,0,0,.5) inset, 0 1px 1px 1px rgba(255,255,255,.4), 0 -1px 1px 1px rgba(0,0,0,.1);
+    }
