@@ -1,0 +1,32 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Настройки";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>Название справочников</h3>
+<table class="table">
+    <tbody>
+        <tr>
+            <td>Тип учреждения</td>
+            <td>Описание</td>
+        </tr>
+        <tr>
+            <td>
+                <select id="selectID">
+                    
+                    <option value=”BL”>Колледж</option>
+
+                    <option value=”GR”>Школа</option>
+
+                    <option value=”YE”>ВУЗ</option>
+
+                </select>
+            </td>
+            <td>
+                От типа учреждения изменяются название справочников(например, класс - группа, кабинет - аудитория)
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p></p>

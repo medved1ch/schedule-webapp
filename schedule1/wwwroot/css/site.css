@@ -19,8 +19,8 @@ body {
 }
 
 /* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".jpg"] {
-    width: 70%;
+.carousel-inner .item img[src$=".png"] {
+    width: 100%;
 }
 
 /* QR code generator */
